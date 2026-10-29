@@ -4,7 +4,7 @@ from calculadora import somar, dividir
 
 
 def test_somar():
-    assert somar(2, 3) == 6
+    assert somar(2, 3) == 5
 
 
 def test_dividir():
