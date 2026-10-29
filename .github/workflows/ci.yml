@@ -28,3 +28,6 @@ jobs:
 
       - name: Executar testes
         run: python -m pytest -v
+
+      - name: Verificar qualidade do código
+        run: python -m flake8 calculadora.py test_calculadora.py
